@@ -1,5 +1,5 @@
 module Attachinary
-  class CorsController < Attachinary::ApplicationController
+  class CorsController < ApplicationController
 
     def show
       respond_to do |format|
